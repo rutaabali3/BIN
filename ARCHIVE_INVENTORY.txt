@@ -1,0 +1,12 @@
+Archive inventory
+Atrophy-Zero.zip	326667 bytes
+CRUD-app.zip	916831 bytes
+ConsoleApp1.zip	24983 bytes
+ConsoleApp2.zip	31379 bytes
+ProductApp.zip	941187 bytes
+StudentManagementSystem.zip	904079 bytes
+Studentapi2.zip	30849 bytes
+WebApplication2.zip	924235 bytes
+bilal.zip	124546 bytes
+campus-connect.zip	17366 bytes
+links.zip	38369 bytes
