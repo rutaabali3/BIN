@@ -1,1 +1,1 @@
-git remote add origin https://github.com/image-warehouse/react-parctice.git
+https://github.com/rutaabali3/BIN.git
