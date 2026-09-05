@@ -206,15 +206,74 @@
 //   )
 // }
 
-import NameInput from "./components/nameinput"
+// import NameInput from "./components/nameinput"
 
-function App(){
-  return(
-    <div>
-      <h1>Event Handling Demo</h1>
-      <NameInput/>
+// function App(){
+//   return(
+//     <div>
+//       <h1>Event Handling Demo</h1>
+//       <NameInput/>
+//     </div>
+//   )
+// }
+
+// export default App;
+
+
+// src/App.jsx
+import Welcome from "./components/welcome";
+import ProfileCard from "./components/profilecard";
+import SubjectList from "./components/subjectList";
+import Counter from "./components/counter";
+import NameInput from "./components/nameinput";
+
+function App() {
+  const mySubjects = ["Mathematics", "Science", "English", "Computer Science"];
+
+  return (
+    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
+      <h1>React All Components Demo</h1>
+
+      {/* 1. Calling Welcome component */}
+      <section>
+        <h2>Welcome Component</h2>
+        <Welcome name="Sir Abdul Wadood" age={22} subject="Python Instructor" />
+      </section>
+
+      <hr />
+
+      {/* 2. Calling ProfileCard components */}
+      <section>
+        <h2>Profile Cards</h2>
+        <ProfileCard firstName="Bob" lastName="Moll" age={38} />
+        <ProfileCard firstName="Sir Abdul" lastName="Wadood" age={22} />
+      </section>
+
+      <hr />
+
+      {/* 3. Calling SubjectList component */}
+      <section>
+        <h2>Subjects List</h2>
+        <SubjectList subjects={mySubjects} />
+      </section>
+
+      <hr />
+
+      {/* 4. Calling Counter component */}
+      <section>
+        <h2>Counter</h2>
+        <Counter />
+      </section>
+
+      <hr />
+
+      {/* 5. Calling NameInput component */}
+      <section>
+        <h2>Name Input</h2>
+        <NameInput />
+      </section>
     </div>
-  )
+  );
 }
 
 export default App;
