@@ -226,6 +226,8 @@ import ProfileCard from "./components/profilecard";
 import SubjectList from "./components/subjectList";
 import Counter from "./components/counter";
 import NameInput from "./components/nameinput";
+import Userform from "./components/userform";
+
 
 function App() {
   const mySubjects = ["Mathematics", "Science", "English", "Computer Science"];
@@ -271,6 +273,10 @@ function App() {
       <section>
         <h2>Name Input</h2>
         <NameInput />
+      </section>
+
+      <section>
+        <Userform />
       </section>
     </div>
   );
